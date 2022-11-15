@@ -2,9 +2,10 @@
 
 > This package forked from https://github.com/WildsideUK/Laravel-Userstamps
 
-Laravel Userstamps provides an Eloquent trait which automatically maintains `created_by` and `updated_by` columns on your model, populated by the currently authenticated user in your application.
+Laravel Userstamps provides an Eloquent trait which automatically maintains created_by and updated_by columns on your model, populated by the currently authenticated user in your application.
 
 When using the Laravel `SoftDeletes` trait, a `deleted_by` column is also handled by this package.
+(included Mass delete)
 
 ## Installing
 
